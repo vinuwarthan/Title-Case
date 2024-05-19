@@ -1,0 +1,41 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+:root {
+  --color-1: #beadfa;
+  --color-2: #d0bfff;
+  --color-3: #dfccfb;
+  --color-4: #fff8c9;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-1);
+  text-align: center;
+}
+
+main {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inputTextArea{
+  height: 150px;
+  font-size: 1.5em;
+}
+
+.outPutTextArea{
+  height: 150px;
+  font-size: 1.5em;
+}
+
+
+.clickClass{
+  margin-bottom: 20px;
+}
